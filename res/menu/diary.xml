@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item 
+        android:id="@+id/menu_new_para"
+        android:title="@string/str_new"
+        android:icon="@drawable/abs__ic_ab_back_holo_dark"
+        android:showAsAction="ifRoom"/>
+
+</menu>

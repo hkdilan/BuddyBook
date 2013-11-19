@@ -17,8 +17,6 @@ public class BuddyBookContract {
 		String DATE_TIME_LAST_UPDATE = "DateTimeLastUpdate";
 		String DATE_TIME_SUBMIT = "DateTimeSubmit";
 		String IMAGE = "Image";
-		String ORDER = "Order";
-		String PRIVACY = "Privacy";
 		String STATUS = "Status";
 	}
 	

@@ -10,8 +10,6 @@ public class DParagraphDAO {
 	private Calendar dateTimeLastUpdate;
 	private Calendar dateTimeSubmit;
 	private String image;
-	private int order;
-	private int privacy;
 	private int status;
 	
 	public String getId(){
@@ -54,20 +52,6 @@ public class DParagraphDAO {
 	}
 	public void setImage(String image){
 		this.image = image;
-	}
-	
-	public int getOrder(){
-		return this.order;
-	}
-	public void setOrder(int order){
-		this.order = order;
-	}
-	
-	public int getPrivacy(){
-		return this.privacy;
-	}
-	public void setPrivacy(int privacy){
-		this.privacy = privacy;
 	}
 	
 	public int getStatus(){

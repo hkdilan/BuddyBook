@@ -37,8 +37,6 @@ public class BuddyBookDatabase extends SQLiteOpenHelper {
 			DParagraph.DATE_TIME_LAST_UPDATE + " DATETIME NOT NULL, " +
 			DParagraph.DATE_TIME_SUBMIT + " DATETIME NOT NULL, " +
 			DParagraph.IMAGE + " VARCHAR NULL, " +
-			DParagraph.ORDER + " INT NOT NULL, " +
-			DParagraph.PRIVACY + " INT NOT NULL DEFAULT(0), " +
 			DParagraph.STATUS + " INT NOT NULL DEFAULT(0), " +
 			"PRIMARY KEY(" + DParagraph._ID + "))";
 }

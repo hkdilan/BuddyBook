@@ -1045,14 +1045,20 @@ containing a value of this type.
  Minimum width for an action button in the menu area of an action bar 
          */
         public static final int action_button_min_width=0x7f070010;
-        /**  Default screen margins, per the Android Design guidelines. 
-
+        /** 
          Customize dimensions originally defined in res/values/dimens.xml (such as
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f070015;
-        public static final int activity_vertical_margin=0x7f070016;
+        public static final int activity_horizontal_margin=0x7f07001b;
+        public static final int default_gap_ui=0x7f070016;
+        /**  Default screen margins, per the Android Design guidelines. 
+         */
+        public static final int default_margin_activity=0x7f070015;
+        public static final int gap_large=0x7f070019;
+        public static final int gap_medium=0x7f070018;
+        public static final int gap_small=0x7f070017;
+        public static final int gap_xlarge=0x7f07001a;
         public static final int menu_header_line=0x7f070013;
         public static final int menu_header_padding_top=0x7f070012;
         public static final int menu_icon_side=0x7f070014;
@@ -1215,28 +1221,34 @@ containing a value of this type.
         public static final int abs__title=0x7f040020;
         public static final int abs__titleDivider=0x7f040021;
         public static final int abs__up=0x7f04000b;
-        public static final int action_settings=0x7f04003f;
+        public static final int action_settings=0x7f040045;
         public static final int disableHome=0x7f040009;
         public static final int edit_query=0x7f04002c;
+        public static final int etDParagraph=0x7f040038;
         public static final int fullscreen=0x7f040013;
         public static final int homeAsUp=0x7f040006;
-        public static final int home_frame=0x7f040038;
-        public static final int home_left_menu_frame=0x7f040039;
+        public static final int home_frame=0x7f040039;
+        public static final int home_left_menu_frame=0x7f04003a;
+        public static final int ibNextDate=0x7f04003d;
+        public static final int ibPrevDate=0x7f04003b;
         public static final int left=0x7f040010;
         public static final int listMode=0x7f040002;
+        public static final int llDParagrpah=0x7f04003e;
         public static final int margin=0x7f040012;
+        public static final int menu_new_para=0x7f040044;
         public static final int normal=0x7f040001;
         public static final int right=0x7f040011;
         public static final int selected_view=0x7f040014;
         public static final int showCustom=0x7f040008;
         public static final int showHome=0x7f040005;
         public static final int showTitle=0x7f040007;
-        public static final int slidingmenulayout=0x7f04003c;
-        public static final int slidingmenumain=0x7f04003b;
-        public static final int slidingmenurowicon=0x7f04003d;
-        public static final int slidingmenurowtitle=0x7f04003e;
+        public static final int slidingmenulayout=0x7f040041;
+        public static final int slidingmenumain=0x7f040040;
+        public static final int slidingmenurowicon=0x7f040042;
+        public static final int slidingmenurowtitle=0x7f040043;
         public static final int tabMode=0x7f040003;
-        public static final int textView1=0x7f04003a;
+        public static final int textView1=0x7f04003f;
+        public static final int tvDate=0x7f04003c;
         public static final int useLogo=0x7f040004;
         public static final int wrap_content=0x7f040000;
     }
@@ -1267,20 +1279,22 @@ containing a value of this type.
         public static final int abs__search_dropdown_item_icons_2line=0x7f030014;
         public static final int abs__search_view=0x7f030015;
         public static final int abs__simple_dropdown_hint=0x7f030016;
-        public static final int activity_home=0x7f030017;
-        public static final int activity_home_left_menu_container=0x7f030018;
-        public static final int fragment_diary=0x7f030019;
-        public static final int fragment_leftslidingmenu=0x7f03001a;
-        public static final int list=0x7f03001b;
-        public static final int shadow=0x7f03001c;
-        public static final int sherlock_spinner_dropdown_item=0x7f03001d;
-        public static final int sherlock_spinner_item=0x7f03001e;
-        public static final int slidingmenumain=0x7f03001f;
-        public static final int slidingmenumainlist=0x7f030020;
-        public static final int slidingmenurow=0x7f030021;
+        public static final int activity_dparagraph_add=0x7f030017;
+        public static final int activity_home=0x7f030018;
+        public static final int activity_home_left_menu_container=0x7f030019;
+        public static final int fragment_diary=0x7f03001a;
+        public static final int fragment_leftslidingmenu=0x7f03001b;
+        public static final int list=0x7f03001c;
+        public static final int shadow=0x7f03001d;
+        public static final int sherlock_spinner_dropdown_item=0x7f03001e;
+        public static final int sherlock_spinner_item=0x7f03001f;
+        public static final int slidingmenumain=0x7f030020;
+        public static final int slidingmenumainlist=0x7f030021;
+        public static final int slidingmenurow=0x7f030022;
     }
     public static final class menu {
-        public static final int home=0x7f0b0000;
+        public static final int diary=0x7f0b0000;
+        public static final int home=0x7f0b0001;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1328,9 +1342,15 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abs__shareactionprovider_share_with_application=0x7f090009;
-        public static final int action_settings=0x7f090010;
+        /**  title 
+         */
         public static final int app_name=0x7f09000f;
-        public static final int hello_world=0x7f090011;
+        public static final int str_new=0x7f090013;
+        /**  menu 
+         */
+        public static final int str_settings=0x7f090012;
+        public static final int title_add_paragraph=0x7f090011;
+        public static final int title_diary=0x7f090010;
     }
     public static final class style {
         /** 
